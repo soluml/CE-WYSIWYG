@@ -1,4 +1,4 @@
-cejwysiwyg
+Content Editable WYSIWYG jQuery Plugin
 ==========
 
-Content Editable jQuery WYSIWYG
+Under Development
