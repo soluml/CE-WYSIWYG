@@ -1,0 +1,29 @@
+.jquery-wysiwyg * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.jquery-wysiwyg > ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: table;
+	width: 100%;
+	border: 1px solid #dfdfdf;
+	border-width: 1px 1px 0 1px;
+	border-radius: 3px 3px 0 0;
+}
+.jquery-wysiwyg > ul > li {
+	display: table-cell;
+	height: 2em;
+	min-width: 1em;
+	border-left: 1px solid #dfdfdf;
+}
+.jquery-wysiwyg > ul > li:first-child {
+	border-left: none;
+}
+.jquery-wysiwyg div[contenteditable] {
+	border: 1px solid #dfdfdf;
+	border-radius: 0 0 3px 3px;
+	padding: 3px;
+}
